@@ -37,6 +37,7 @@ source-repository head
 Library
   Default-Language: Haskell2010
   Exposed-modules:  Language.Haskell.TH.Lift
+                    Language.Haskell.TH.Lift.Internal
   Other-Extensions: CPP,  MagicHash, TypeSynonymInstances, FlexibleInstances
   if impl(ghc >= 8.0)
     Other-Extensions: TemplateHaskellQuotes
